@@ -83,19 +83,48 @@ Perfect example to train with React Native and adapt to the beginner.
 
 ### Prerequisites
 
+1. Setup react native in your laptop or desktop if you have not already.
+2. If you are using the mac operating system, you can install a simulator as well. Otherwise your physical phone is always an option for checking the output.
+
+3. ```expo install expo-sensors``` :  https://docs.expo.dev/versions/latest/sdk/sensors/
+
+4.  ```expo install react-native-reanimated``` : https://docs.expo.dev/versions/latest/sdk/reanimated/
+
+After installing the package, be sure to remove everything
+from "babel.config.js" and add this code instead :
+
+module.exports = function(api) {
+  api.cache(true);
+  return {
+    presets: ['babel-preset-expo'],
+    plugins: ['react-native-reanimated/plugin'],
+  };
+}
+
+5. ```expo install react-native-svg``` : https://docs.expo.dev/versions/latest/sdk/svg/
+
+6. ```npm install react-native-circular-progress-indicator``` : You can use yarn as well.
+
 
 ### Installation
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+1. Clone the repository:
+``` git clone https://github.com/taniabezancon/Pedometer-App-react-native.git```
 
+2. Install the needed packages with npm or yarn:
+```npm install```
+
+3. Start your project
+```npm start```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,22 +147,12 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Tania bezancon - [@Tania_BZN](https://twitter.com/Tania_BZN) - tania.bezancon@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/taniabezancon/Pedometer-App-react-native](https://github.com/taniabezancon/Pedometer-App-react-native)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
