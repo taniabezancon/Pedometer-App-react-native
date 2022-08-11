@@ -13,11 +13,10 @@
 
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-  </a>
+
+![Add a heading](https://user-images.githubusercontent.com/87010134/184074420-fdffe3ac-d4dc-4713-bdab-0cc9a19c9d5e.png)
+
+
 
 <h3 align="center"> Pedometer App React Native </h3>
 
