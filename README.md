@@ -18,7 +18,7 @@
 
 
 
-<h3 align="center"> Pedometer App React Native </h3>
+<h3 align="center"> Pedometer App React Native for IOS devices </h3>
 
   <p align="center">
     Here you will find the perfect mini project to get started with the basics of React Native !
